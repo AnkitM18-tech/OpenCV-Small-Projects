@@ -74,7 +74,7 @@ def drawRectangle(img,biggest,thickness):
 def nothing(x):
     pass
 
-def initializeTrackbars(intialTracbarVals=0):
+def initializeTrackbars(intialTrackbarVals=0):
     cv2.namedWindow("Trackbars")
     cv2.resizeWindow("Trackbars", 360, 240)
     cv2.createTrackbar("Threshold1", "Trackbars", 200,255, nothing)
