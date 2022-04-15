@@ -7,6 +7,8 @@ frameHeight = 480
 cap = cv2.VideoCapture(0)
 cap.set(3,frameWidth)
 cap.set(4,frameHeight)
+# img = cv2.imread("./text.jpg")
+# img = cv2.resize(img,(frameWidth,frameHeight))
 
 def empty(a):
     pass
